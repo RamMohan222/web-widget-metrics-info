@@ -48,6 +48,6 @@ __Build__ CDN to integrate with web pages
 ```
 CDN with perticular version
 ```html
- <link href="https://cdn.jsdelivr.net/gh/RamMohan222/web-widget-memory-info@v0.1.0/output/index.css" rel="stylesheet" />
- <script src="https://cdn.jsdelivr.net/gh/RamMohan222/web-widget-memory-info@v0.1.0/output/index.js"></script>
+ <link href="https://cdn.jsdelivr.net/gh/RamMohan222/web-widget-memory-info@v1.0.0/output/index.css" rel="stylesheet" />
+ <script src="https://cdn.jsdelivr.net/gh/RamMohan222/web-widget-memory-info@v1.0.0/output/index.js"></script>
 ```
