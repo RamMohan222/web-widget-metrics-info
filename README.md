@@ -37,8 +37,8 @@ Add the following content in the root page of your web page.
 
 OR
 
-__Build__ CDN to integrate dynamically
+__Build__ CDN to integrate with web pages
 ```html
-<link href="output/index.css" rel="stylesheet" />
-<script src="output/index.js"></script>
+<link href="https://cdn.jsdelivr.net/gh/RamMohan222/web-widget-memory-info/output/index.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/gh/RamMohan222/web-widget-memory-info/output/index.js"></script>
 ```
