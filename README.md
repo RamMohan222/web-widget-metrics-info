@@ -51,3 +51,22 @@ CDN with perticular version
  <link href="https://cdn.jsdelivr.net/gh/RamMohan222/web-widget-memory-info@v1.0.0/output/index.css" rel="stylesheet" />
  <script src="https://cdn.jsdelivr.net/gh/RamMohan222/web-widget-memory-info@v1.0.0/output/index.js"></script>
 ```
+
+### Testing
+Download a `test.html` and open in the browser and check the widget.
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+
+    <h3>Widget Demo from CDN</h3>
+
+
+    <link href="https://cdn.jsdelivr.net/gh/RamMohan222/web-widget-memory-info@v1.0.0/output/index.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/gh/RamMohan222/web-widget-memory-info@v1.0.0/output/index.js"></script>
+</body>
+</html>
+```
