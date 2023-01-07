@@ -19,6 +19,10 @@ You may also see any lint errors in the console.
 #### `npm run build:widget` 
 
 Generates two file `index.js` and `index.css` in the `output` directory.
+Add the below script in `package.json`
+```json
+    "build:widget": "parcel build src/index.js --no-source-maps --dist-dir output"
+```
 
 #### Development changes
 
