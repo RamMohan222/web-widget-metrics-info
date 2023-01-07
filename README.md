@@ -70,3 +70,4 @@ Download a `test.html` and open in the browser and check the widget.
 </body>
 </html>
 ```
+![alt output](https://github.com/RamMohan222/web-widget-memory-info/blob/main/widget-output.png?raw=true)
