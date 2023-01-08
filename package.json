@@ -1,5 +1,5 @@
 {
-  "name": "web-widget-memory-info",
+  "name": "web-widget-metrics-info",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

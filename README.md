@@ -43,13 +43,13 @@ OR
 
 __Build__ CDN to integrate with web pages
 ```html
-<link href="https://cdn.jsdelivr.net/gh/RamMohan222/web-widget-memory-info/output/index.css" rel="stylesheet" />
-<script src="https://cdn.jsdelivr.net/gh/RamMohan222/web-widget-memory-info/output/index.js"></script>
+<link href="https://cdn.jsdelivr.net/gh/RamMohan222/web-widget-metrics-info/output/index.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/gh/RamMohan222/web-widget-metrics-info/output/index.js"></script>
 ```
 CDN with perticular version
 ```html
- <link href="https://cdn.jsdelivr.net/gh/RamMohan222/web-widget-memory-info@v1.0.3/output/index.css" rel="stylesheet" />
- <script src="https://cdn.jsdelivr.net/gh/RamMohan222/web-widget-memory-info@v1.0.3/output/index.js"></script>
+ <link href="https://cdn.jsdelivr.net/gh/RamMohan222/web-widget-metrics-info@v1.0.3/output/index.css" rel="stylesheet" />
+ <script src="https://cdn.jsdelivr.net/gh/RamMohan222/web-widget-metrics-info@v1.0.3/output/index.js"></script>
 ```
 
 ### Testing
@@ -65,9 +65,9 @@ Download a `test.html` and open in the browser and check the widget.
     <h3>Widget Demo from CDN</h3>
 
 
-    <link href="https://cdn.jsdelivr.net/gh/RamMohan222/web-widget-memory-info@v1.0.3/output/index.css" rel="stylesheet" />
-    <script src="https://cdn.jsdelivr.net/gh/RamMohan222/web-widget-memory-info@v1.0.3/output/index.js"></script>
+    <link href="https://cdn.jsdelivr.net/gh/RamMohan222/web-widget-metrics-info@v1.0.3/output/index.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/gh/RamMohan222/web-widget-metrics-info@v1.0.3/output/index.js"></script>
 </body>
 </html>
 ```
-![alt output](https://github.com/RamMohan222/web-widget-memory-info/blob/main/widget-output.png?raw=true)
+![alt output](https://github.com/RamMohan222/web-widget-metrics-info/blob/main/widget-output.png?raw=true)
