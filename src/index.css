@@ -8,13 +8,5 @@
 }
 
 .js_widget__content__ {
-  padding: 0px 0px 0px 0px;
-  background-image: linear-gradient(30deg, red, blue, yellow);
-  color: rgb(255, 255, 255);
-  opacity: 0.9;
-  max-width: fit-content;
-  border-radius: 5px;
-  border: solid black 1px;
-  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 1);
-  font-size: xx-small;
+  cursor: pointer;
 }
