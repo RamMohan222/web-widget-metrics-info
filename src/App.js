@@ -16,7 +16,7 @@ function App({ domElement }) {
 
   return (
     <span className={cssClass} onClick={() => isOpened(!open)}>
-      <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg">
+      <svg id="img" width="20" height="20" xmlns="http://www.w3.org/2000/svg">
         <g>
           <rect
             stroke="#000"

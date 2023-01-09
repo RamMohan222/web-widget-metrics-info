@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
+import { randomColor } from "./util";
 
-export default function Metrics() {
+export default function ResourceMetrics() {
   const [metrics, setMetrics] = useState({});
 
   useEffect(() => {
@@ -29,17 +30,14 @@ export default function Metrics() {
   }, []);
   return (
     <>
-      {Object.keys(metrics).map((m) => (
-        <div style={{color: randomColor()}}>{m}:{metrics[m].toFixed(2)}</div>
-      ))}
+      <span style={{ fontSize: "x-small" }}>
+        {Object.keys(metrics).map((m) => (
+          <div key={randomColor()} style={{ color: randomColor() }}>
+            {m}:{metrics[m].toFixed(2)}
+          </div>
+        ))}
+      </span>
     </>
   );
 }
-function randomColor(){
-    const maxVal = 0xFFFFFF; // 16777215
-    let randomNumber = Math.random() * maxVal; 
-    randomNumber = Math.floor(randomNumber);
-    randomNumber = randomNumber.toString(16);
-    const randColor = randomNumber.padStart(6, 0); 
-    return `#${randColor.toUpperCase()}`
-}
+
