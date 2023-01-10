@@ -1,6 +1,6 @@
 #js_widget__root__,
 .js_widget__root__ {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   right: 0;
   margin-bottom: 5px;
