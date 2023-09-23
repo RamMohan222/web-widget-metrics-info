@@ -8,7 +8,7 @@ function App({ domElement }) {
   if (open)
     return (
       <Details
-        title="Page Metrics"
+        title="Load Cost"
         data="Enter comment message"
         onClose={isOpened}
       />
