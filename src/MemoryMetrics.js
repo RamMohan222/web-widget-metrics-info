@@ -5,7 +5,7 @@ export default function MemoryMetrics() {
   const bTom = (v) => " " + Math.round(v / (1024 * 1024));
 
   return (
-    <table style={{ fontSize: "x-small" }}>
+    <table style={{ fontSize: "10px" }}>
       <tbody>
         <tr style={{ color: randomColor() }}>
           <td>Alloc Heap :</td>

@@ -30,7 +30,7 @@ export default function ResourceMetrics() {
   }, []);
   return (
     <>
-      <span style={{ fontSize: "x-small" }}>
+      <span style={{ fontSize: "10px" }}>
         {Object.keys(metrics).map((m) => (
           <div key={randomColor()} style={{ color: randomColor(), marginLeft: '5px' }}>
             {m} : {metrics[m].toFixed(2)}
