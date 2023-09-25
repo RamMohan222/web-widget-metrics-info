@@ -3,7 +3,6 @@ import ResourceMetrics from "./ResourceMetrics";
 import MemoryMetrics from "./MemoryMetrics";
 
 export default function Details({ data, title, onClose }) {
-  // const [comment, setComment] = React.useState(data);
   return (
     <>
       <div
@@ -15,7 +14,6 @@ export default function Details({ data, title, onClose }) {
         }}
       >
         <span style={{
-          marginTop: '10px',
           color: '#38598b',
           display: 'flex',
           flexFlow: 'row',
@@ -28,12 +26,12 @@ export default function Details({ data, title, onClose }) {
               className='btn'
               target="_blank"
               href="https://developer.mozilla.org/en-US/docs/Web/Performance/Navigation_and_resource_timings">?</a>
-            <button className='btn' onClick={() => onClose(false)}>x</button>
+            <a href="none" className='btn' onClick={() => onClose(false)}>x</a>
           </div>
         </span>
         <div
           style={{
-            height: 105,
+            height: 110,
             width: 300,
             margin: 10,
             boxShadow: '0px 0px 15px -3px rgba(0,0,0,0.1)',
@@ -49,22 +47,6 @@ export default function Details({ data, title, onClose }) {
           <span>
             <MemoryMetrics />
           </span>
-        </div>
-        {/* <div>
-          <textarea
-            onChange={(e) => setComment(e.target.value)}
-            style={{
-              maxHeight: 70,
-              maxWidth: 300,
-              minHeight: 30,
-              minWidth: 300,
-            }}
-            value={comment}
-          />
-        </div> */}
-        <div>
-          {/* <button className='btn' onClick={() => onClose(false)}>Submit</button> */}
-          {/* <button className='btn' onClick={() => onClose(false)}>Close</button> */}
         </div>
       </div>
     </>
